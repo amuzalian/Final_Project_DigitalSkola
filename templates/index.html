@@ -150,51 +150,36 @@
         </h2>
       </div>
       <div class="service_container layout_padding2">
+        {% for services in fileData %}
         <div class="service_box">
+          {% if services["ID"] == 1 %}
           <div class="img-box">
             <img src="{{ url_for('static', filename='images/sayur.png')}}" alt=""/>
           </div>
-          <div class="detail-box">
-            <h4>
-              Sayuran Segar <br/>
-              Non Pestisida
-            </h4>
-            <p>
-              Sayuran terpilih yang disediakan adalah non pestisida sehingga dapat menjaga kesegaran dan kesehatan
-              sayuran sekaligus. Hindari sayuran dari pestisida yang membahayakan pelanggan Anda yang berharga.
-            </p>
-          </div>
-        </div>
-        <div class="service_box">
+          {% endif %}
+          {% if services["ID"] == 2 %}
           <div class="img-box">
             <img src="{{ url_for('static', filename='images/sembak.png')}}" alt=""/>
           </div>
-          <div class="detail-box">
-            <h4>
-              Sembako Dengan Harga <br/>
-              Terjangkau
-            </h4>
-            <p>
-              Kebutuhan yang tidak akan pernah terlewatkan. Anda tetap bisa menjangkau dengan harga yang bersaing di pasar pengecer lainnya.
-              Anda tidak perlu repot pergi ke satu pasar ke pasar lainnya. CV Kainan Jaya Mandiri menyediakan semua yang Anda butuhkan.
-            </p>
-          </div>
-        </div>
-        <div class="service_box">
+          {% endif %}
+          {% if services["ID"] == 3 %}
           <div class="img-box">
             <img src="{{ url_for('static', filename='images/kurir.png')}}" alt=""/>
           </div>
+          {% endif %}
           <div class="detail-box">
             <h4>
-              Pengiriman <br/>
-              Ekspres
+              {{services["BUSINESS"]}}
             </h4>
             <p>
-              Harga yang kami berikan sudah termasuk harga pengemasan dan pengiriman menuju tempat Anda. Kami mengerti bahwa waktu Anda
-              tetap berjalan, namun banyak hal yang perlu Anda lakukan. Biarkan kami yang mengantarkan pesanan Anda.
+              {{services["DESCRIPTION"]}}
             </p>
+            <p style="font-size:20px;margin-top:-5px">AGENT:</p>
+            <p style="font-size:15px;margin-top:-20px">{{services["AGENT"][0]["FIRSTNAME"]}}&nbsp;{{services["AGENT"][0]["LASTNAME"]}}</p>
+            <p style="font-size:15px;margin-top:-20px">{{services["AGENT"][1]["FIRSTNAME"]}}&nbsp;{{services["AGENT"][1]["LASTNAME"]}}</p>
           </div>
         </div>
+        {% endfor %}
       </div>
       <div>
         <a href="">
