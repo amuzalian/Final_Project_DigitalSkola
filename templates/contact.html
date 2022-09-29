@@ -1,4 +1,5 @@
-{% include 'header.html' %}
+<body class="sub_page">
+  {% include 'header.html' %}
   </div>
 
   <!-- contact section -->
@@ -76,16 +77,16 @@
         <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center align-items-lg-baseline">
           <div class="social-box">
             <a href="">
-              <img src="images/fb.png" alt=""/>
+              <img src="{{ url_for('static', filename='images/fb.png')}}" alt=""/>
             </a>
             <a href="">
-              <img src="images/twitter.png" alt=""/>
+              <img src="{{ url_for('static', filename='images/twitter.png')}}" alt=""/>
             </a>
             <a href="">
-              <img src="images/linkedin1.png" alt=""/>
+              <img src="{{ url_for('static', filename='images/linkedin1.png')}}" alt=""/>
             </a>
             <a href="">
-              <img src="images/instagram1.png" alt=""/>
+              <img src="{{ url_for('static', filename='images/instagram1.png')}}" alt=""/>
             </a>
           </div>
           <div class="form_container mt-5">
