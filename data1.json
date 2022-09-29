@@ -1,0 +1,35 @@
+[
+    {
+        "id":1,
+        "jenis_produk":"Sayuran",
+        "nama_produk": "Sawi Putih",
+        "karakteristik":[
+            {
+                "unit_satuan":"kg",
+                "harga_unit_satuan":15000
+            }
+        ]
+    },
+    {
+        "id":2,
+        "jenis_produk":"Sayuran",
+        "nama_produk": "Toge",
+        "karakteristik":[
+            {
+                "unit_satuan":"kg",
+                "harga_unit_satuan":8000
+            }
+        ]
+    },
+    {
+        "id":3,
+        "jenis_produk":"Sayuran",
+        "nama_produk": "Caysim",
+        "karakteristik":[
+            {
+                "unit_satuan":"kg",
+                "harga_unit_satuan":12000
+            }
+        ]
+    }
+]

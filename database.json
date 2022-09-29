@@ -1,0 +1,47 @@
+[
+    {
+      "ID": 1,
+      "BUSINESS": "Sayuran Segar Non Pestisida",
+      "AGENT": [
+        {
+          "FIRSTNAME": "Adithya Muzalian",
+          "LASTNAME": "Rosdyanto"
+        },
+        {
+          "FIRSTNAME": "Kainan-Zammil",
+          "LASTNAME": "Alfatih"
+        }
+      ],
+      "DESCRIPTION": "Sayuran terpilih yang disediakan adalah non pestisida sehingga dapat menjaga kesegaran dan kesehatan sayuran sekaligus. Hindari sayuran dari pestisida yang membahayakan pelanggan Anda yang berharga."
+    },
+    {
+        "ID": 2,
+        "BUSINESS": "Sembako Dengan Harga Terjangkau",
+        "AGENT": [
+          {
+            "FIRSTNAME": "Rini",
+            "LASTNAME": "Septiani"
+          },
+          {
+            "FIRSTNAME": "Keanu-Pasha",
+            "LASTNAME": "Abigail"
+          }
+        ],
+        "DESCRIPTION": "Kebutuhan yang tidak akan pernah terlewatkan. Anda tetap bisa menjangkau dengan harga yang bersaing di pasar pengecer lainnya. Anda tidak perlu repot pergi ke satu pasar ke pasar lainnya. CV Kainan Jaya Mandiri menyediakan semua yang Anda butuhkan."
+      },
+      {
+        "ID": 3,
+        "BUSINESS": "Pengiriman Ekspress",
+        "AGENT": [
+          {
+            "FIRSTNAME": "Liza",
+            "LASTNAME": "Chairunnisa"
+          },
+          {
+            "FIRSTNAME": "Muhammad-Yudistira",
+            "LASTNAME": "Lasanuddin"
+          }
+        ],
+        "DESCRIPTION": "Harga yang kami berikan sudah termasuk pengemasan dan pengiriman menuju tempat Anda. Kami mengerti bahwa waktu Anda tetap berjalan, namun banyak hal yang perlu Anda lakukan. Biarkan kami yang mengantarkan pesanan Anda."
+      }
+  ]
